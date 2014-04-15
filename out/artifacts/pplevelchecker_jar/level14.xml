@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Keywords:
+	level - Enclosing tag for the entire level
+		width - Width in number of grid squares
+		height - Height in number of grid squares
+	block - Basic ice block
+		x - horizontal location in grid squares
+		y - vertical location in grid squares (0 is the top of the screen)
+	start - Starting point for main character
+		x - horizontal location in grid squares
+		y - vertical location in grid squares (0 is the top of the screen)
+
+NOTE: Attributes must be in the order shown to be processed correctly!
+	 -->
+
+<level
+    width="8"
+    height="10" >
+    
+    <!-- Blocks -->
+    <block x="0" y="0"/>
+    <block x="2" y="0"/>
+    <block x="6" y="1"/>
+    <block x="5" y="5"/>
+    <block x="7" y="8"/>
+    <block x="2" y="9"/>
+    
+    <breakable x="3" y="2"/>
+	<breakable x="3" y="4"/>
+            
+    <finish x="4" y="7"/>
+
+    <!-- Main Character's Starting Point -->
+    <start x="0" y="4"/>
+</level>
