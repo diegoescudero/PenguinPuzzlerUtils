@@ -2,15 +2,17 @@
 public enum Obstacle {
     EMPTY,
     BLOCK,
+    PIPE,
     PIPE_VERT,
     PIPE_HOR,
+    RAMP,
     RAMP_LEFT,
     RAMP_TOP,
     RAMP_RIGHT,
     RAMP_BOTTOM,
     BREAKABLE,
     FINISH,
-    PLAYER;
+    START;
 
     public static boolean isBlocked(Direction d, Obstacle o) {
         boolean res = true;
