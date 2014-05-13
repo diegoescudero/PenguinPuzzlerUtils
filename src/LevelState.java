@@ -291,9 +291,9 @@ public class LevelState {
 //            //nothing
 //        }
 
-        Scanner sc = new Scanner(System.in);
 //        Scanner sc = new Scanner(stream);
 
+        Scanner sc = new Scanner(System.in);
 
         boolean levelFound = false;
         //Find opening Level tag

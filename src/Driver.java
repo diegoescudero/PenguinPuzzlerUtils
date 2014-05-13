@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Driver {
 
     public static void main(String[] args) {
-        System.out.println("Thinking..."); //create a callback that prints this every 5 seconds
+        System.out.println("Thinking..."); //TODO create a callback that prints this every 5 seconds
         long startTime = System.currentTimeMillis();
 
         ArrayList<LevelState> states = new ArrayList<LevelState>();
@@ -30,8 +30,8 @@ public class Driver {
             states = nextStates;
         }
 
-        long endTime = System.currentTimeMillis();
         //Find the shortest completion if any
+        long endTime = System.currentTimeMillis();
         LevelState best = null;
         if (complete.size() == 0) {
             System.out.println((endTime-startTime) + " Milliseconds Later...");
